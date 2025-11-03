@@ -15,6 +15,7 @@ target-path: "target"
 clean-targets:
   - "target"
   - "dbt_modules"
+  # Removed "dbt_internal_packages" from clean-targets to avoid errors related to missing files
 
 models:
   jaffle_shop:
